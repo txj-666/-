@@ -1,0 +1,20 @@
+# 敏感配置
+cloudbaseRoot/**/config.js
+config/secrets.js
+.env
+
+# 微信小程序编译产物
+/dist/
+
+# 日志文件
+*.log
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 微信开发者工具配置
+project.config.json
+project.private.config.json

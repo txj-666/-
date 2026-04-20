@@ -1,0 +1,182 @@
+/* app.wxss */
+page {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.5;
+  font-size: 28rpx;
+  transition: font-size 0.3s ease;
+}
+
+/* 字体大小类 */
+.font-size-small {
+  font-size: 24rpx;
+}
+
+.font-size-normal {
+  font-size: 28rpx;
+}
+
+.font-size-medium {
+  font-size: 32rpx;
+}
+
+.font-size-large {
+  font-size: 36rpx;
+}
+
+.font-size-extra-large {
+  font-size: 40rpx;
+}
+
+/* 标题字体大小 */
+.font-size-title-small {
+  font-size: 32rpx;
+}
+
+.font-size-title-normal {
+  font-size: 36rpx;
+}
+
+.font-size-title-medium {
+  font-size: 40rpx;
+}
+
+.font-size-title-large {
+  font-size: 44rpx;
+}
+
+.font-size-title-extra-large {
+  font-size: 48rpx;
+}
+
+.container {
+  width: 100%;
+  padding: 0 16rpx;
+}
+
+/* 通用按钮样式 */
+.btn {
+  display: inline-block;
+  padding: 12rpx 24rpx;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* 卡片样式 */
+.card {
+  background-color: white;
+  border-radius: 12rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.08);
+  padding: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+/* 加载状态 */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40rpx;
+}
+
+/* 空状态 */
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80rpx 0;
+  color: #999;
+}
+
+/* 错误状态 */
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40rpx;
+  color: #ff4d4f;
+}
+
+/* 阴影效果 */
+.shadow {
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+/* 圆角 */
+.rounded {
+  border-radius: 8rpx;
+}
+
+/* 文本截断 */
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 弹性布局 */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* 重庆文旅打卡点颜色样式 */
+.jiefangbei-color {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+}
+
+.hongyadong-color {
+  background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);
+}
+
+.ciqikou-color {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+}
+
+.changjiangsuodao-color {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+.wulong-color {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+}
+
+.liziba-color {
+  background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+}
+
+.nanshan-color {
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+}
+
+.dazu-color {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
